@@ -115,6 +115,32 @@ const questions = [
         message: 'Please choose a license.',
         choices: ['mit', 'apache-2.0', 'gpl-3.0', 'lgpl-3.0', 'mpl-2.0', 'none']
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'githug',
+        message: 'What is your GitHub?',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username');
+                return false;
+            }
+        }
+    },
 ];
 
 // TODO: Create a function to write README file
