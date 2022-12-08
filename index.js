@@ -80,7 +80,7 @@ const questions = () => {
             if (answer) {
             return true;
         } else {
-            console.log('What are the steps to install your project?')
+            console.log('Please enter steps to install your project')
             return false;
         }
       }
@@ -88,7 +88,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'usage',
-        message: 'Please provide instructions and examples for use.',
+        message: 'What are your instructions and example of use?',
         validate: function(answer) {
             if (answer) {
             return true;
@@ -101,7 +101,20 @@ const questions = () => {
     {
         type: 'input',
         name: 'credits',
-        message: 'Please enter your collaborators.',
+        message: 'Who are your collaborators?',
+        validate: function(answer) {
+            if (answer) {
+            return true;
+        } else {
+            console.log('Please enter your collaborators')
+            return false;
+        }
+      }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What are the test instructions?',
         validate: function(answer) {
             if (answer) {
             return true;
@@ -117,7 +130,34 @@ const questions = () => {
         message: 'Please choose a license.',
         choices: ['mit', 'apache-2.0', 'gpl-3.0', 'lgpl-3.0', 'mpl-2.0', 'none'],
         default: 'mit'
-    }])
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+        validate: function(answer) {
+            if (answer) {
+            return true;
+        } else {
+            console.log('Please enter your email')
+            return false;
+        }
+      }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github user?',
+        validate: function(answer) {
+            if (answer) {
+            return true;
+        } else {
+            console.log('Please enter your github')
+            return false;
+        }
+      }
+    },
+    ])
     .then(input => {
         return input;
     })
