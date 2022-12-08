@@ -119,7 +119,7 @@ const questions = () => {
             if (answer) {
             return true;
         } else {
-            console.log('Please enter your collaborators')
+            console.log('Please enter your test instructions')
             return false;
         }
       }
