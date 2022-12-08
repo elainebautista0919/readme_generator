@@ -1,8 +1,6 @@
-# Professional README Generator Starter Code ![License Badge](https://img.shields.io/badge/license-mit-blue)
+# Professional README Generator  ![License Badge](https://img.shields.io/badge/license-mit-blue)
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-
 
   ## Table Of Contents
 
@@ -17,6 +15,7 @@
   ## Desciption
 
   As part of Challenge 9 and learning Node JS, this application was created to generate an automatic README file from questions answered in the Terminal.
+  Video link on how the feature works: https://drive.google.com/file/d/1VxwhnK1CkLIM9bNqkG7gDKLHnRPlx7qF/view?usp=sharing
 
   ## Installation
 
