@@ -45,4 +45,4 @@
 
   For any questions about the project, please reach out to the information below:
   > Email: elaine.bautista@gmail.com
-  > GitHub: hhttps://github.com/elainebautista0919/readme_generator
+  > GitHub: https://github.com/elainebautista0919/readme_generator
